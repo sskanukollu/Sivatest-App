@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" tests="5">
+<testcase classname="Logging into Salesforce" name="Logging in Salesforce_5" time="36.816608">
+<system-out><![CDATA[Given Runmode is "Y"............................................................passed
+Given I go to "LoginURL" on "firefox"....................................................passed
+And I enter "loginUsername" as "siva123"..................................................passed
+And I enter "loginPassword" as "hello123"..................................................passed
+And I click on "loginButton"........................................................passed
+Then login should be "failure".......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Logging into Salesforce" name="Logging in Salesforce_4" time="0.001079">
+<skipped><![CDATA[Given Runmode is "N"............................................................pending
+Given I go to "LoginURL" on "firefox"....................................................skipped
+And I enter "loginUsername" as "siva.uk99@yahoo.com"............................................skipped
+And I enter "loginPassword" as "@monday1"..................................................skipped
+And I click on "loginButton"........................................................skipped
+Then login should be "success".......................................................skipped
+]]></skipped>
+</testcase>
+<testcase classname="Logging into Salesforce" name="Logging in Salesforce_3" time="30.107998">
+<system-out><![CDATA[Given Runmode is "Y"............................................................passed
+Given I go to "LoginURL" on "chrome"....................................................passed
+And I enter "loginUsername" as "siva1"...................................................passed
+And I enter "loginPassword" as "hello1"...................................................passed
+And I click on "loginButton"........................................................passed
+Then login should be "failure".......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Logging into Salesforce" name="Logging in Salesforce_2" time="0.000508">
+<skipped><![CDATA[Given Runmode is "N"............................................................pending
+Given I go to "LoginURL" on "chrome"....................................................skipped
+And I enter "loginUsername" as "siva.uk99@yahoo.com"............................................skipped
+And I enter "loginPassword" as "@monday1"..................................................skipped
+And I click on "loginButton"........................................................skipped
+Then login should be "success".......................................................skipped
+]]></skipped>
+</testcase>
+<testcase classname="Logging into Salesforce" name="Logging in Salesforce_1" time="20.506385">
+<system-out><![CDATA[Given Runmode is "Y"............................................................passed
+Given I go to "LoginURL" on "ie"......................................................passed
+And I enter "loginUsername" as "siva.uk99@yahoo.com"............................................passed
+And I enter "loginPassword" as "@monday1"..................................................passed
+And I click on "loginButton"........................................................passed
+Then login should be "success".......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
