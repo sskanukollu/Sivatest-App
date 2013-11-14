@@ -60,7 +60,7 @@
 			<argument>--format</argument>
 			<argument>html:target/cucumber-html-report</argument>
 			<argument>--tags</argument>
-			<argument>@createlead</argument>
+			<argument>@login</argument>
 			<argument>--glue</argument>
 			<argument>com/</argument>
 			<argument>src/</argument>
